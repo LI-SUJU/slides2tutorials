@@ -68,8 +68,8 @@ if uploaded_file:
                 narratives.append(f"Page {i}:\n{narrative}")
 
             # Generate output files
-            audio_path = "output_audio_tutorial.mp3"
-            pdf_path = "output_tutorial.pdf"
+            audio_path = "./outputs/output_audio_tutorial.mp3"
+            pdf_path = "./outputs/output_tutorial.pdf"
 
             generate_combined_voice_over(narratives, output_path=audio_path)
             generate_formatted_pdf(narratives, output_file=pdf_path)
