@@ -53,7 +53,7 @@ Slides2Tutorials is a co-creative system designed to transform lecture slides (P
    ```bash
    python cc_fin_v1_0.py --input <input-pdf> --output-audio <output-audio> --output-pdf <output-pdf>
 ```
-### Run it on Kaggle:
-tbd
+### Run it on Colab with a .ipynb implementation:
+https://github.com/LI-SUJU/slides2tutorials/blob/main/CC_fin_v1.0.ipynb
 
 
